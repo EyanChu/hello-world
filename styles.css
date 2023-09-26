@@ -1,0 +1,8 @@
+body {
+font-family: "Martian Mono", sans-serif;
+}   
+img {
+    border-radius: 8px;
+    width: 400px;
+    height: auto;
+}
