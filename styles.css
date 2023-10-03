@@ -1,6 +1,9 @@
 body {
     width: 100vw;
     font-family: "Martian Mono", sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 img {
@@ -13,6 +16,8 @@ img {
     gap: 12px;
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
 }
 
 .card {
