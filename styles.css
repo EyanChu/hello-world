@@ -1,9 +1,22 @@
 body {
+    width: 100vw;
     font-family: "Martian Mono", sans-serif;
 }
 
 img {
     border-radius: 8px;
-    width: 400px;
+    width: 100%;
     height: auto;
+}
+
+.card-container {
+    gap: 12px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    height: 450px;
+    overflow: hidden;
 }
